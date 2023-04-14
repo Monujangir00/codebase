@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+.img img{
+    width: 100%;
+    height: 25px;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+.btn{
+    background-color: #4e0fea;
+    padding: 8px 25px;
+    border-radius: 5px;
+    margin-left: 10px;
+    
+}
+nav span a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 200px;
+}
+.main h1{
+    text-align: center;
+    margin: 50px 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.formpage{
+    background-color: #4e0fea;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+.formfield{
+    width: 50%;
+    margin: 0 5px;
+    text-align: left;
+}
+.formpage h1{
+    font-size: 2.1rem;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+}
+textarea{
+    margin: 15px 0;
+}
+.message{
+    width: 100%;
+    text-align: left;
+}
+button{
+    padding: 15px;
+    color: black;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: unset;
+}
+.citysection{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.city-img img{
+    width: 150px;
+    height: 150px;
+}
+.city{
+    display: flex;
+    justify-content: space-around;
+}
+.city1, .city2{
+    text-align: center;
+    margin: 100px 0;
+}
+.city-add{
+    padding: 20px;
+}
+.city-add h2{
+    padding: 10px 0;
+}
+.call h1{
+    font-weight: 400;
+    margin-bottom: 20px;
+    
+}
+.ph-no a{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #4e0fea;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+   
+}
+footer{
+    background-color: #4E0FEA ;
+}
+.logotext{
+    padding: 10px 0;
+    border-bottom: 2px solid white;
+}
+.logotext img{
+    height: 100px;
+}
+
+.ficons{
+    display: flex;
+    list-style: none;
+}
+.ficons li{
+    padding: 10px;
+}
+.footericons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+.ftext{
+    list-style: none;
+    display: flex;
+
+}
+.ftext li{
+    padding: 0 10px;
+   
+    
+}
+.ftext li a{
+    color: white;
+    text-decoration: none;
+}
+.common{
+    padding: 80px;
+}
+
+
+
+
+
+
+

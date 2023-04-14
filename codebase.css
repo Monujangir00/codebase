@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+.img img{
+    width: 100%;
+    height: 25px;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+.btn{
+    background-color: #4e0fea;
+    padding: 8px 25px;
+    border-radius: 5px;
+    margin-left: 10px;
+    
+}
+nav span a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+.mainsection{
+    align-items: center;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+.text{
+    padding-right: 100px;
+}
+.text h1{
+    font-size: 58px;
+}
+.text p{
+    font-size: 1rem;
+    line-height: 20px;
+    margin: 30px 0;
+}
+.text a{
+    background-color: #4e0fea;
+    padding: 8px 25px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.img1 img{
+    width: 516px
+}
+.companysection{
+    width: 80%;
+    margin: auto;
+}
+.companies{
+     text-align: center;
+     margin: 50px 0;
+}
+.companies ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.companies ul li{
+    list-style: none;
+}
+.companies ul img{
+    margin: 20px;
+    width: 150px;
+}
+.developers{
+    margin: 100px 0;
+}
+.developers h1{
+    text-align: center;
+    font-weight: 900; 
+    font-size: 4rem;
+}
+.profiles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px 0;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 300px;
+    margin: 20px;
+    border: 2px solid rgb(121, 119, 119);
+    border-radius: 10px;
+}
+.commitbox:hover{
+    border: 2px solid white;
+}
+.profiles img{
+    width: 200px;
+}
+.rank{
+    font-size: 14px;
+    line-height: 50px;
+}
+.commit{
+    background-image: url(our-commitment-bg-1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+.commitcontent{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.commit > h1{
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    padding: 4rem;
+}
+.commitcontent img{
+    height: 100px;
+}
+.commitbox{
+    text-align: center;
+    padding: 3rem ;
+    background-color: rgba(0, 0, 0, 0.595);
+    margin: 0 2rem;
+    flex: 1;
+    border-radius: 1rem;
+}
+.commitbox h1{
+    font-size: 1rem;
+    font-weight: 900;
+    color: white;
+    margin: 1rem 0;
+
+
+}
+.commitbox p{
+    color: white;
+}
+.sectiontwo{
+    background-color: #f1f1f1;
+    padding-top: 50px;
+}
+.skillsection{
+    width: 80%;
+    margin: auto;
+}
+.skillsection h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.skillbox{
+    display: flex;
+    padding-bottom: 80px;
+}
+.ourexeperties{
+    padding: 50px 50px 50px 0;
+}
+.icontext h4{
+    font-size: 1.5rem;
+    line-height: 50px;
+}
+.icontext p{
+    line-height: 20px;
+}
+.iconimg img{
+    height: 4rem;
+}
+.common{
+    width: 80%;
+    margin: auto;
+}
+.common h1{
+    font-size: 50px;
+    font-weight: 900;
+    padding: 50px 0;
+    text-align: center;
+}
+.hiringsection{
+    display: flex;
+    margin-bottom: 80px;
+}
+.textsec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 100px;
+    flex-direction: column;
+
+}
+.textsec1{
+    display: flex;
+    align-items: center;
+}
+.numbers{
+    border: 10px solid #471aff;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+.numbers h1{
+    font-size: 4rem;
+    width: 100px;
+    text-align: center;
+    color: #471aff;
+}
+.numtext{
+    padding-left: 3rem;
+}
+.numtext h2{
+    font-size: 23px;
+    line-height: 3rem;
+}
+.applysec{
+    background-color: rgba(95,37,240,1);
+}
+.applytext{
+    width: 60%;
+    margin: auto;
+    padding: 40px 0;
+}
+.applytext h3{
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+}
+.applybtns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.firstbtn {
+    background-color: #4e0fea;
+    padding: 8px 25px;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.secondbtn{
+    border: 2px solid white;
+    padding: 8px 25px;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.applybtns span{
+    margin: 0 15px;
+    color: white;
+}
+footer{
+    background-color: #4E0FEA ;
+}
+.logotext{
+    padding: 10px 0;
+    border-bottom: 2px solid white;
+}
+.logotext img{
+    height: 100px;
+}
+
+.ficons{
+    display: flex;
+    list-style: none;
+}
+.ficons li{
+    padding: 10px;
+}
+.footericons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+.ftext{
+    list-style: none;
+    display: flex;
+
+}
+.ftext li{
+    padding: 0 10px;
+   
+    
+}
+.ftext li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+

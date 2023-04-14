@@ -1,0 +1,87 @@
+@media screen and (min-width: 320px) and (max-width: 570px){
+    .header nav{
+        display: none;
+    }
+    .mainsection{
+        flex-direction: column;
+        margin: 0;
+        width: unset;
+    }
+    .text{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    ul{
+        flex-direction: column;
+    }
+    .profiles{
+        flex-direction: column;
+    }
+    .commitcontent{
+        flex-direction: column;
+    }
+    .commitbox{
+        width: 300px;
+        margin-top: 2rem;
+    }
+    .img1 img{
+        width: 100%;
+    }
+    .text{
+        text-align: center;
+    }
+    .text h1{
+        font-size: 40px;
+    }
+    .text a{
+        font-size: 1rem;
+    }
+    .companysection{
+        margin: 0;
+        width: unset;
+    }
+    .commit{
+        height: unset;
+     }
+     .developers h1{
+        font-size: 2rem;
+    }
+    .commit h1{
+        padding: 2rem 0;
+        font-size: 2rem
+    }
+    .skillsection h1{
+        font-size: 1.5rem;
+    }
+    .skillbox{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .common h1{
+        font-size: 1.5rem;
+    }
+    .hiringsection{
+        flex-direction: column;
+    }
+    .hiringsection img{
+        height: 250px;
+        width: 100%;
+    }
+    .applytext h3{
+        font-size: 1.5rem;
+    }
+    .applybtns{
+        padding: unset;
+    }
+   
+    .applybtns{
+        flex-direction: column;
+    }
+    .textsection{
+        flex-direction: row;
+    }
+}
+
+

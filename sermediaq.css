@@ -1,0 +1,44 @@
+@media  screen and  (min-width: 320px) and (max-width: 570px) {
+  
+    nav{
+        display: none;
+    }
+   
+    .skillbox{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .content-img img{
+        height: 200px;
+        width: 100%;
+    }
+    .content-img{
+        margin: 0;
+        height: 200px;
+        width: 100%;
+    }
+    .common{
+        margin: 0;
+    }
+    .ourexeperties{
+        padding: 0;
+    }
+    .logotext{
+        padding: 0;
+    }
+    .logotext img{
+        height: 70px;
+    }
+    .footericons{
+        justify-content: space-around;
+    }
+    .ficons{
+        flex-direction: column;
+    }
+    .ftext{
+        flex-direction: column;
+       
+    }
+   
+}
